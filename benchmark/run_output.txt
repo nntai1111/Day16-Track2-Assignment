@@ -1,0 +1,25 @@
+============================================================
+ LAB 16 - LightGBM Benchmark (Credit Card Fraud Detection)
+============================================================
+Host: ip-10-0-10-67 | CPU cores: 2 | LightGBM 4.7.0
+
+[1] Loaded 284,807 rows x 30 features in 3.900s
+    Fraud ratio: 0.1727% (492 frauds)
+    Train: 205,060 | Valid: 22,785 | Test: 56,962
+
+[2] Training done in 5.768s (best iteration: 74)
+
+[3] Test metrics
+    auc_roc   : 0.9772
+    accuracy  : 0.9994
+    f1_score  : 0.8242
+    precision : 0.8929
+    recall    : 0.7653
+
+[4] Inference
+    Latency (1 row, median of 200)     : 1.246 ms
+    1000 rows (median of 20)           : 3.858 ms
+    Throughput                         : 259,209 rows/s
+
+Saved results to /home/ubuntu/ml-benchmark/benchmark_result.json
+============================================================

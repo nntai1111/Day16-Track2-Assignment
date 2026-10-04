@@ -1,0 +1,19 @@
+$ free -h
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       231Mi       1.8Gi       2.0Mi       1.7Gi       3.3Gi
+Swap:             0B          0B          0B
+
+$ ip -s link
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    RX:  bytes packets errors dropped  missed   mcast           
+         32372     276      0       0       0       0 
+    TX:  bytes packets errors dropped carrier collsns           
+         32372     276      0       0       0       0 
+2: ens5: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9001 qdisc mq state UP mode DEFAULT group default qlen 1000
+    link/ether 02:ff:ed:b0:8b:19 brd ff:ff:ff:ff:ff:ff
+    RX:  bytes packets errors dropped  missed   mcast           
+     362258917  255271      0       0       0       0 
+    TX:  bytes packets errors dropped carrier collsns           
+       1168771   15369      0       0       0       0 
+    altname enp0s5

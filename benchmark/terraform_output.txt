@@ -1,0 +1,8 @@
+$ terraform output
+alb_dns_name = "ai-inference-alb-0dd2711e-1423195418.us-east-1.elb.amazonaws.com"
+bastion_public_ip = "34.201.35.65"
+endpoint_url = "http://ai-inference-alb-0dd2711e-1423195418.us-east-1.elb.amazonaws.com/v1/completions"
+gpu_private_ip = "10.0.10.67"
+
+$ terraform state list | wc -l
+30
