@@ -20,3 +20,7 @@ lab-key.pub
 # Environment Variables
 .env
 .env.local
+# Extra local SSH keys
+tai-key
+tai-key.pub
+*.pem
